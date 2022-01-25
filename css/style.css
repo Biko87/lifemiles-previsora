@@ -1,0 +1,153 @@
+/* inicio body */
+
+html,
+body {
+    
+ padding: 0;
+    margin: 0;
+    background: url(../images/fondo.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+}
+
+header {
+
+	text-align: center;
+}
+
+
+
+
+
+.pasos {
+
+
+	
+	padding-left: 18px;
+	padding-bottom: 10px;
+	max-width: 650px;
+	margin: 0 auto; 
+}
+
+
+
+
+.marca {
+
+	padding-left: 12px;
+	margin-top: 5px;
+	
+}
+
+.legal {
+
+position: absolute;
+padding-bottom: 100px;
+padding-left: 0px;
+
+
+
+
+}
+
+	
+
+.loguearse{
+
+	margin: 0 auto;
+	width: 300px;
+	background-color: rgb(255,255,255,.4);
+	padding: 10px;
+}
+
+
+.botonimagen{
+  background-image:url(boton.png);
+  background-repeat:no-repeat;
+  margin-top: 20px;
+  margin-right: 50px;
+  height:20px;
+  width:150px;
+  background-position:center;
+  background: #9E1933; 
+  border:0px;
+  background:none;
+
+
+}
+
+.c {
+
+	background: #9E1933; 
+	border: 1px solid #9E1933; 	 
+	padding: 5px 2px 7px 8px; 
+border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px; 
+	color:#FFFFFF; 
+	text-decoration:none;
+	
+	
+	
+}
+
+
+.cl {
+
+background: #9E1933; 
+	border: 1px solid #9E1933; 
+
+	padding: 5px 8px 7px 10px; 
+border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+	color:#FFFFFF; 
+	text-decoration:none;
+
+}
+
+
+
+
+.field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+
+/* fin de  redes y logo */
+
+
+/* inicio cuerpo */
+
+
+
+
+
+
+
+
+
+/* fin cuerpo */
+
+
+
+@media all and (max-width: 500px) {
+
+html,
+body {
+    
+ padding: 0;
+    margin: 0;
+    background: url(../images/fondo-mobile.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+}
+
+}

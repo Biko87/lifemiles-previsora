@@ -1,0 +1,113 @@
+/* inicio body */
+
+html,
+body {
+    
+ padding: 0;
+    margin: 0;
+    background: url(../images/fondo2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+}
+
+header {
+
+	text-align: center;
+}
+
+
+
+
+
+.felicitaciones {	
+	padding-bottom: 10px;
+	max-width: 500px;
+	margin: 0 auto; 
+}
+
+
+
+.millas {
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+
+.codigo {
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+.contador {
+padding-right: 5px;
+max-width: 600px;
+margin: 0 auto;
+}
+
+
+.miles {
+
+	padding-top: 33px;
+
+}
+
+	
+.marca {
+
+	padding-top: 40px;
+}
+
+/* fin de  redes y logo */
+
+
+/* inicio cuerpo */
+
+
+.code{
+	float:left; 
+	width:200px;
+}
+
+.codenum{
+	color:#FFFFFF; border-left:1px solid #FFFFFF; margin-left:20px; font-size:30px; padding:15px;
+}
+
+
+
+
+/* fin cuerpo */
+
+
+@media all and (max-width: 500px) {
+
+html,
+body {
+    
+ padding: 0;
+    margin: 0;
+    background: url(../images/fondo2-mobile.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+}
+
+
+.code{
+	float:none; 
+	width:100%;
+}
+
+
+.codenum{
+	color:#FFFFFF; border-left:0px solid #FFFFFF; margin-left:0px; font-size:30px; padding:15px;
+}
+
+
+}

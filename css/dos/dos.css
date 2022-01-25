@@ -1,0 +1,105 @@
+/* inicio body */
+
+html,
+body {
+    
+ padding: 0;
+    margin: 0;
+    background: url(../images/fondo1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+}
+
+/* inicio body */
+
+
+header {
+
+	text-align: center;
+	padding-top: 5px;
+	
+
+
+
+}
+
+
+#borde {
+min-height: 450px;
+max-width: 1000px;
+margin: 0 auto;
+border: 1px solid #9E1933;
+border-radius: 15px 15px 15px 15px;
+background-color:  rgba(255,255,255,0.2);
+
+}
+
+
+#container {
+	text-align: center;
+	display: block; 
+	max-width: 1000px; 
+	margin: 0 auto;
+	line-height: 40px;
+}
+
+
+#container-uno {
+
+	float: left;
+	margin-left: 300px;
+	text-align: center;
+
+
+ border: 1px solid #fff;
+border-radius: 1px 1px 0px;
+-moz-border-radius:0px 0px 0px 0px;
+-webkit-border-radius:0px 0px 0px 0px;
+
+}
+
+
+#container-dos {
+	float: left;
+	margin-left: 350px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+.marca {
+	padding-top: 20px;
+
+}
+
+
+
+@media all and (max-width: 500px) {
+
+
+h1{
+	font-size: 15px;
+}
+
+
+html,
+body {
+    
+ padding: 0;
+    margin: 0;
+    background: url(../images/fondo1-mobile.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+}
+
+}
+
+
+
+/* fin cuerpo */
